@@ -13,9 +13,10 @@ function search() {
   var x = document.getElementById("main").value;
   var y = x.replace(/[\s]/,"+");
   var a = document.getElementById("a");
-  var z = "https://www.Pornhub.com/search?q="+y;
-  var href = "https://www.Pornhub.com/webhp";
-  var src = "https://www.Pornhub.com/webhp";
+  var z = "https://www.pornhub.com/video/search?search="+y;
+  var Z = "https://www.pornhub.com/search?q="+y;
+  var href = "https://www.pornhub.com/webhp";
+  var src = "https://www.pornhub.com/webhp";
   a.href=z;
   a.src=z;
   a.click();
@@ -23,8 +24,9 @@ function search() {
   var keyword = ("keyword");
   var search = document.getElementById("keyword").value(''); {
       var Link = ("Link");
-      Link = ('https://www.Pornhub.com/search?q='+y);
-      Link = ('https://www.Pornhub.com/webhp');
+      LINK = ('https://www.pornhub.com/video/search?search='+y);
+      Link = ('https://www.pornhub.com/search?q='+y);
+      Link = ('https://www.pornhub.com/webhp');
   }
 }
 
@@ -34,9 +36,10 @@ function search(search) {
   var x = document.getElementById("main").value;
   var y = x.replace(/[\s]/,"+");
   var a = document.getElementById("a");
-  var z = "https://www.Pornhub.com/search?q="+y;
-  var href = "https://www.Pornhub.com/webhp";
-  var src = "https://www.Pornhub.com/webhp";
+  var z = "https://www.pornhub.com/video/search?search="+y;
+  var Z = "https://www.pornhub.com/search?q="+y;
+  var href = "https://www.pornhub.com/webhp";
+  var src = "https://www.pornhub.com/webhp";
   a.href=z;
   a.src=z;
   a.click();
@@ -44,8 +47,9 @@ function search(search) {
   var keyword = ("keyword");
   var search = document.getElementById("keyword").value(''); {
       var Link = ("Link");
-      Link = ('https://www.Pornhub.com/search?q='+y);
-      Link = ('https://www.Pornhub.com/webhp');
+      LINK = ('https://www.pornhub.com/video/search?search='+y);
+      Link = ('https://www.pornhub.com/search?q='+y);
+      Link = ('https://www.pornhub.com/webhp');
   }
 }
 
