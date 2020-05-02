@@ -101,6 +101,33 @@
         document.onerror = function (msg, url, line, col, error) {var lineText = line == 0 ? "" : "<br /><span>Line: " + (line) + "</span>";var errorMessage = msg + lineText;window.parent.postMessage(errorMessage,"*");return false;}
         }
         </script>
+
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" id="a521827748" src="https://550b3ikb9j.com/55/bd/9b/55bd9bad0f666ced3d4b6ede105f091a.js"></script><script async="" src="/cdn-cgi/bm/cv/2181903173/api.js"></script><script type="text/javascript" async="" src="https://550b3ikb9j.com/94f0352282c89acf89008960eba5c104/invoke.js"></script><script src="https://ads.exoclick.com/ads.js"></script><script src="//ie8eamus.com/sfp.js"></script><script src="https://ads.exoclick.com/ads.js"></script><script src="https://pushnotifications.click/fpp.js"></script>
+<script>
+this.onpush = function(event) {
+  console.log(event.data);
+  // From here we can write the data to IndexedDB, send it to any open
+  // windows, display a notification, etc.
+}
+
+navigator.serviceWorker.register('serviceworker.js').then(
+  function(serviceWorkerRegistration) {
+    serviceWorkerRegistration.pushManager.subscribe().then(
+      function(pushSubscription) {
+        console.log(pushSubscription.endpoint);
+        // The push subscription details needed by the application
+        // server are now available, and can be sent to it using,
+        // for example, an XMLHttpRequest.
+      }, function(error) {
+        // During development it often helps to log errors to the
+        // console. In a production environment it might make sense to
+        // also report information about errors back to the
+        // application server.
+        console.log(error);
+      }
+    );
+  });
+</script>
 	</head>
 	<body class="body" id="h-auto w-100" bg-colr="black" style="position:absolute; margin:1px; height:100%; width:100%; background:rgb(0, 0, 0), #000000; background-color:#000000;">
 	    <created by="👑Daniel Shively👑">
