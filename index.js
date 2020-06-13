@@ -1,3 +1,4 @@
+//Created by: Daniel2019Creator1\\
 window.onload=function() {
 onload =()=>{
     onload = () => location.href = 'https://www.pornhub.com/';
