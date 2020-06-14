@@ -1,14 +1,59 @@
 /*Created by: Daniel2019Creator1*/
-*{margin:0;}
-html, body{cursor:default;}
+*{padding:0;margin:0;flex:none;}
+html, body{cursor:default;flex:none;}
 body {
     position:absolute;
+    border:0.1;
+    padding:0;
     margin:1px;
     height:100%;
     width:100%;
     background:rgb(0, 0, 0), #000000;
     background-color:#000000;
+    border-color:#000000;
+    font-weight:inherit;
     flex:none;
+}
+
+t {
+    border:1;
+    font-weight:bold;
+    text-align:center;
+	background:rgb(192,192,192), #C0C0C0;
+	border-color:#C0C0C0;
+	background-color:#C0C0C0;
+	flex:none;
+}
+
+a {
+    cursor:hand;
+    cursor:pointer;
+    flex:none;
+}
+
+p {
+    color:#000000;
+    flex:none;
+}
+
+.header {
+    border:1;
+    font-weight:bold;
+    text-align:center;
+	background:rgb(192,192,192), #C0C0C0;
+	border-color:#C0C0C0;
+	background-color:#C0C0C0;
+	flex:none;
+}
+
+.t {
+    border:1;
+    font-weight:bold;
+    text-align:center;
+	background:rgb(192,192,192), #C0C0C0;
+	border-color:#C0C0C0;
+	background-color:#C0C0C0;
+	flex:none;
 }
 
 .a {
@@ -35,6 +80,17 @@ body {
 
 #brand {
     bottom: 6px;
+    flex:none;
+}
+
+#header {
+    border:1;
+    font-weight:bold;
+    text-align:center;
+	background:rgb(192,192,192), #C0C0C0;
+	border-color:#C0C0C0;
+	background-color:#C0C0C0;
+	flex:none;
 }
 
 #main {
